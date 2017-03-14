@@ -1,1 +1,1 @@
-require("./bootstrap"),Vue.component("example",require("./components/Example.vue"));const app=new Vue({el:"#app"});
+$(document).ready(function(){$(".js-toggle-sidemenu").click(function(e){e.preventDefault(),$(this).toggleClass("is-active"),$("#wrapper").toggleClass("toggled")})});

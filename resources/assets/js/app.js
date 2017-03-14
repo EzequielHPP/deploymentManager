@@ -7,4 +7,16 @@ $(document).ready(function(){
         $(this).toggleClass('is-active');
         $('#wrapper').toggleClass('toggled');
     });
+
+    $('.js-create-website').click( function (e) {
+        e.preventDefault();
+
+        $('#mainmodal').modal('show');
+    });
+
+    $('.showmodal').click( function (e) {
+        e.preventDefault();
+
+        $('#mainmodal').modal('show');
+    });
 });

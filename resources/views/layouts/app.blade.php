@@ -43,7 +43,6 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        &nbsp;
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -77,6 +76,12 @@
                 </div>
             </div>
         </nav>
+        <section class="sidebar">
+            <ul>
+                <li class="nav-header">ads</li>
+
+            </ul>
+        </section>
 
         @yield('content')
     </div>

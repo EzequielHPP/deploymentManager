@@ -17,6 +17,9 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/home', 'HomeController@index');
 
+// Edit website
+Route::get('/edit/{siteid}', 'WebsiteViewerController@view');
+
 
 // API Routes
 Route::post('/api/websites/create', 'WebsitesController@create');

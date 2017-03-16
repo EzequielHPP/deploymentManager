@@ -19,7 +19,7 @@
                                         <div class="col-xs-6 col-md-3 pull-left">
                                             <a href="{{$site->local_url}}" target="_blank" title="Open Gorilla URL" class="btn btn-lg btn-info pull-right"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
                                             <a href="{{$site->remote_url}}" target="_blank" title="Open Website-In-Dev URL" class="btn btn-lg btn-info pull-right"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                                            <button type="button" title="Edit" class="btn btn-lg btn-primary pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+                                            <a href="/edit/{{$site->id}}" title="Edit" class="btn btn-lg btn-primary pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
                                         </div>
                                     </li>
                                 @endforeach

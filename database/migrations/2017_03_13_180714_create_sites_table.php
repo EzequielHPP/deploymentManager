@@ -21,6 +21,7 @@ class CreateSitesTable extends Migration
             $table->string('current_commit_local');
             $table->string('remote_url');
             $table->string('remote_path');
+            $table->string('git_project_url');
             $table->string('current_commit_remote');
             $table->string('deployment_branch');
             $table->timestamps();

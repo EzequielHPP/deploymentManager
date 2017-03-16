@@ -1,7 +1,13 @@
-.create-website {
-  cursor: pointer;
+#dashboard {
+  .create-website {
+    cursor: pointer;
 
-  &:hover {
-    opacity: .7;
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  .list-group-item .btn {
+    margin-left: 10px;
   }
 }

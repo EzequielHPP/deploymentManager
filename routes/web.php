@@ -16,3 +16,7 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 
 Route::get('/home', 'HomeController@index');
+
+
+// API Routes
+Route::post('/api/websites/create', 'WebsitesController@create');

@@ -1,0 +1,1 @@
+tar -zcvf public_html.$(date +%d%m%Y).tar.gz public_html/

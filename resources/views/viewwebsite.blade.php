@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div id="viewwebsite" class="container-fluid">
+    <div id="viewwebsite" class="container-fluid panel panel-default">
         <div class="row">
             <div class="col-md-12">
                 @if(isset($error))
@@ -26,13 +26,15 @@
                         </h4> <strong>Warning!</strong> Best check yo self, you're not looking too good. <a href="#" class="alert-link">alert link</a>
                     </div>
                 @endif
+                <div class="panel-heading">
+                    <h3>
+                        Viewing {{$currentSite->name}}
+                    </h3>
+                </div>
                 <div class="row">
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-10">
-                                <h3>
-                                    Viewing {{$currentSite->name}}
-                                </h3>
                                 <p id="site-description">
                                     <span class="label label-defaul pull-right js-editbutton action-buttons" data-target="site-description"><i class="fa fa-pencil" aria-hidden="true"></i></span>
                                     {!! $currentSite->description !!}

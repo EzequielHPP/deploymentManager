@@ -10,4 +10,9 @@ class Sites extends Model
     protected $table = 'sites';
     // Allow fill on these fields
     protected $fillable = ['name', 'local_url', 'local_path', 'remote_url', 'remote_path', 'git_project_url'];
+
+    public function logs()
+    {
+        return $this->hasMany('App\WebsiteLog', 'website_id', 'id');
+    }
 }

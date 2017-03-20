@@ -1,0 +1,22 @@
+.action-buttons {
+  cursor: pointer;
+
+  i {
+    font-size: 20px;
+    color: $actionButton;
+
+    &:hover {
+      color: $actionButtonHover;
+    }
+  }
+}
+
+.framework-logos {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
